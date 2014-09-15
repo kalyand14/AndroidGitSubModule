@@ -1,4 +1,4 @@
 include ':app'
+include ':AndroidCommonLibrary'
 
-include 'androidcommonlibarary'
-project(':androidcommonlibarary').projectDir = new File('/AndroidCommonLibrary')
+project(':AndroidCommonLibrary').projectDir = new File('AndroidCommonLibrary')

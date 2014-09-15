@@ -1,0 +1,4 @@
+include ':app'
+
+include 'androidcommonlibarary'
+project(':androidcommonlibarary').projectDir = new File('/AndroidCommonLibrary')
